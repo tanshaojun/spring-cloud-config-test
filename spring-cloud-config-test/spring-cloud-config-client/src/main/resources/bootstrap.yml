@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:1001/
